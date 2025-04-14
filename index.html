@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>澳门第一深情亲斤可可的德州扑克</title>
+    <!-- 修正后的CSS路径 -->
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <div class="game-container">
+        <h1>澳门第一深情亲斤可可</h1>
+        
+        <div class="players">
+            <div class="player" id="player1">玩家1: $100万</div>
+            <div class="player" id="player2">玩家2: $100万</div>
+            <div class="player" id="player3">玩家3: $100万</div>
+            <div class="player" id="player4">玩家4: $100万</div>
+        </div>
+
+        <div class="table">
+            <div class="community-cards">公共牌区</div>
+            <div class="pot">奖池: $0</div>
+        </div>
+
+        <div class="controls">
+            <button onclick="placeBet(10000)">1万</button>
+            <button onclick="placeBet(20000)">2万</button>
+            <button onclick="placeBet(50000)">5万</button>
+            <button onclick="placeBet(100000)">10万</button>
+            <button onclick="placeBet(200000)">20万</button>
+            <button onclick="placeBet(500000)">50万</button>
+            <button onclick="allIn()">梭哈</button>
+        </div>
+
+        <div class="timer">剩余时间：60秒</div>
+    </div>
+
+    <!-- 修正后的JS路径 -->
+    <script src="/firebase-config.js"></script>
+    <script src="/script.js"></script>
+</body>
+</html>

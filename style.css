@@ -1,0 +1,59 @@
+body {
+    font-family: "微软雅黑", Arial, sans-serif;
+    background-color: #1a936f;
+    color: white;
+    margin: 0;
+    padding: 20px;
+}
+
+.game-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    background: #0f5d4e;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.players {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+
+.player {
+    background: #2d7d66;
+    padding: 15px;
+    border-radius: 10px;
+    width: 200px;
+}
+
+.table {
+    background: #1a6653;
+    padding: 30px;
+    border-radius: 15px;
+    margin: 20px 0;
+    min-height: 200px;
+}
+
+.controls {
+    margin: 20px 0;
+}
+
+button {
+    background: #ffd700;
+    border: none;
+    padding: 15px 30px;
+    margin: 5px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background: #e6c300;
+}
+
+.timer {
+    font-size: 24px;
+    margin-top: 20px;
+}
